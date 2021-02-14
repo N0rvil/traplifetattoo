@@ -34,8 +34,6 @@ const Navbar = () => {
             document.body.removeEventListener('click', onBodyClick);
         };
 
-
-
     }, []);
 
     const checkIsActive = () => {
@@ -108,8 +106,6 @@ const Navbar = () => {
         {renderNavbar()}
         </div>
     );
-    
 };
-
 
 export default Navbar;
